@@ -8,9 +8,10 @@ Linked lists can be helpful in different algorithmic problems as well as for bui
 
 Nodes can be inserted into the linked list by simply creating a node and pushing it back in the list:
 
-``` auto *node = new Node<Int>(13);
-``` list->push_back(node);
-
+``` 
+auto *node = new Node<Int>(13);
+list->push_back(node);
+```
 ### Deleting
 
 Deleting the linked list automatically deletes the nodes. This behavior is just part of the implementation of this specific linked list and can be changed fairly easily. 
